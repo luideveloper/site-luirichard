@@ -165,7 +165,7 @@ ol {
 
 .spad {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .text-white h1,
@@ -685,15 +685,6 @@ ol {
 .team__item:hover .team__item__text {
   bottom: 0;
 }
-.team__item.team__item--second {
-  margin-top: -60px;
-}
-.team__item.team__item--third {
-  margin-top: -120px;
-}
-.team__item.team__item--four {
-  margin-top: -180px;
-}
 
 .team__item__text {
   text-align: center;
@@ -981,7 +972,6 @@ ol {
   color: #ffffff;
   font-size: 75px;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
 .breadcrumb__text h2 {
@@ -989,13 +979,16 @@ ol {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
+  
 }
 
 .breadcrumb__texts h2 {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   margin-top: 60px;
+  padding-bottom: 20px;
+  padding-top: 5px;
 }
 
 .breadcrumb__links a {
@@ -1706,7 +1699,8 @@ ol {
 -----------------------*/
 .contact-widget {
   background: #0a011a;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .contact__widget__item {
@@ -1714,6 +1708,7 @@ ol {
 }
 
 .contact__widget__item__icon {
+  margin: 0 auto;
   height: 70px;
   width: 70px;
   border: 1px solid rgba(225, 225, 225, 0.5);
@@ -2082,17 +2077,6 @@ ol {
     padding-bottom: 70px;
   }
 
-  .team__item.team__item--second {
-    margin-top: 0;
-  }
-
-  .team__item.team__item--third {
-    margin-top: 0;
-  }
-
-  .team__item.team__item--four {
-    margin-top: 0;
-  }
 
   .team__btn {
     position: relative;
