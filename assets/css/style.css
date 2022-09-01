@@ -11251,9 +11251,9 @@ body.template-color-1 {
     padding: 0;
   }
 }
-.sticky .header-wrapper .logo img {
+/*.sticky .header-wrapper .logo img {
   max-width: 90%;
-}
+} remove*/
 
 .logo a {
   display: inline-block;
