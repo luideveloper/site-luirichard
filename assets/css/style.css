@@ -19720,7 +19720,7 @@ body.white-version .rn-btn-ulderline {
   max-height: 70px !important;
 }
 
-@media only screen and (min-width: 1199px) and (max-width: 1700px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .white-version.home-classic .slide .content .inner h6{
     margin-top: -10% !important;
   }
