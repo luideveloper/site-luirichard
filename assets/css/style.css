@@ -6035,7 +6035,7 @@ ol ul {
 }
 
 .row > [class*=col] {
-  padding-left: 30px; /*50*/
+  padding-left: 25px; /*50*/
   padding-right: 30px; /*50*/
 }
 
@@ -12790,7 +12790,7 @@ figcaption {
 }
 .slide .social-share-inner-left .social-share {
   margin: -10px -12px;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap; remove*/
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide .social-share-inner-left .social-share {
@@ -18814,7 +18814,7 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-lightn);
 }
 .white-version .slide .social-share-inner-left .social-share li a {
-  box-shadow: var(--shadow-white-3);
+  /*box-shadow: var(--shadow-white-3); remove*/
   background: var(--gradient-box-w);
 }
 .white-version .slide .social-share-inner-left .social-share li a::before {
@@ -19720,12 +19720,20 @@ body.white-version .rn-btn-ulderline {
   max-height: 70px !important;
 }
 
+.colorw{
+  color: #ffffff !important;
+}
+.span-color{
+  color: #912BFF !important;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .white-version.home-classic .slide .content .inner h6{
     margin-top: -10% !important;
   }
   .white-version.home-classic .slide .content .inner .title{
-    font-size: 40px;
+    
+    font-size: 35px;
   }
 
   .social-share-inner-left{
@@ -19734,4 +19742,13 @@ body.white-version .rn-btn-ulderline {
   }
 
 }
+
+@media only screen and (max-width: 575px) {
+  .row--30{
+    margin-left: 5px !important;
+    
+  }
+}
+
+
 
