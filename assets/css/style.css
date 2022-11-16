@@ -12955,6 +12955,7 @@ figcaption {
 }
 .slide.slider-style-1.with-square-box {
   padding-top: 200px;
+  padding-bottom: 0 !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-1.with-square-box {
@@ -12963,7 +12964,7 @@ figcaption {
 }
 @media only screen and (max-width: 767px) {
   .slide.slider-style-1.with-square-box {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 }
 .slide.slider-style-1 .content {
@@ -19745,7 +19746,7 @@ body.white-version .rn-btn-ulderline {
 
 @media only screen and (max-width: 575px) {
   .row--30{
-    margin-left: 5px !important;
+    margin: 2px !important;
     
   }
 }
